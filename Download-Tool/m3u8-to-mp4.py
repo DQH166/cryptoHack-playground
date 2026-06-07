@@ -1,9 +1,10 @@
+Загрузка файлов m3u8 с обычных веб-страниц: playwright + ffmpeg
 import subprocess
 import shutil
 from playwright.sync_api import sync_playwright
 
 
-# ===== 只需要改这里 =====
+# ===== Просто измените это =====
 PAGE_URL = "https://5v55.com/vodplay/9744-1-13.html"
 OUTPUT_FILE = "video.mp4"
 WAIT_SECONDS = 60
